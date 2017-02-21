@@ -3,18 +3,22 @@ font-family: 'Berkshire Swash', cursive;
 }
 
 body {
-  padding-left: 3%;
   padding-right: 3%;
+  padding-left: 3%;
 }
 
 ul {
-  list-style: none;
   margin: 2% 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
+
+  list-style: none;
+
 	vertical-align: baseline;
+
+	border: 0;
+
+	font: inherit;
+	font-size: 100%;
 }
 
 i {
@@ -31,11 +35,13 @@ i {
 
 .nav__text, .nav__text:hover {
   color: #233237;
+
   font-size: 125%;
 }
 
 .nav__brand, .nav__brand:hover {
   color: #233237;
+
   font-size: 150%;
 }
 
@@ -49,15 +55,17 @@ i {
 
 .product__div {
     display: block;
-    max-height: 530px;
     overflow: hidden;
+
+    max-height: 530px;
 }
 
 .product__tagline {
-  background-color: #233237;
-  color: #FFF;
   margin: 0;
   padding: 1%;
+
+  color: #FFF;
+  background-color: #233237;
 }
 
 .product__image {
@@ -65,13 +73,13 @@ i {
 }
 
 .product__button {
-  background-color: #233237;
   color: #FFF;
+  background-color: #233237;
 }
 
 .form__button {
-  background-color: #233237;
   color: #FFF;
+  background-color: #233237;
 }
 
 .about {
@@ -83,18 +91,20 @@ i {
 }
 
 .about__subtitle {
-  font-size: 125%;
   margin-bottom: 5%;
+
+  font-size: 125%;
 }
 
 .contact {
-  border: 10px solid #233237;
   padding: 2% 5%;
+
+  border: 10px solid #233237;
 }
 
 .contact__title {
-  font-size: 200%;
   font-family: 'Berkshire Swash', cursive;
+  font-size: 200%;
 }
 
 .contact__text {
@@ -102,22 +112,27 @@ i {
 }
 
 .contact__link, .contact__link:hover {
-  color: #233237;
   text-decoration:  none;
+
+  color: #233237;
 }
 
 .footer {
   margin-top: 3%;
+
   text-align: center;
 }
 
 .footer__social {
-  color: #233237;
-  padding-left: 1%;
   display: none;
+
+  padding-left: 1%;
+
+  color: #233237;
 }
 
 .footer__links, .footer__links:hover {
-  color: #233237;
   text-decoration: none;
+
+  color: #233237;
 }
