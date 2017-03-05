@@ -1,3 +1,3 @@
 # Razorblade Art
 
-##An ecommerce website created for my uncle's Art Business
+##Ecommerce Website create for my uncle's Art Business

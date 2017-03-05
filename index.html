@@ -1,4 +1,7 @@
---- layout: default title: Razorblade Art ---
+---
+layout: default
+title: Razorblade Art
+---
 <section class="container-fluid text-center">
 	<h1 class="site__title">Razorblade Art</h1>
 	<p class="site__subtitle">Acrylic - Mixed Media - Pen & Ink</p>
@@ -7,7 +10,7 @@
 		{% for product in site.products %}
 		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 			<div class="product">
-				<a href="products/{{product.file}}" class="product__div"><img class="img-responsive center-block" src="{{product.image}}" onContextMenu="alert('Image Not Available.');return false"></a>
+				<a href="products/{{product.file}}.html" class="product__div"><img class="img-responsive center-block product__image--card" src="images/{{product.file}}.jpg" onContextMenu="alert('Image Not Available.');return false"></a>
 				<div class="product__tagline">
 					<h4>{{product.title}}</h4>
 					<p>{{product.price}}</p>

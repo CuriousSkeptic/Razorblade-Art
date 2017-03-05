@@ -112,18 +112,10 @@ i {
 }
 
 .footer__social {
-    display: none;
     padding-left: 1%;
     color: #233237;
 }
 
-.footer__links, .footer__links:hover {
-    text-decoration: none;
-    color: #233237;
-}
-
-
-}
 .footer__links, .footer__links:hover {
     text-decoration: none;
     color: #233237;
